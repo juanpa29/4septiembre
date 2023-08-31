@@ -2,6 +2,4 @@ import datetime
 
 ahora = datetime.datetime.now()
 
-print(f"{ahora.day} --- {ahora.month} --- {ahora.year}")
-
-print("Fin")
+print(ahora.strftime("año: %Y - %H:%M"))
